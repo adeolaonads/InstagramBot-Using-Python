@@ -24,7 +24,8 @@ class InstagramBot:
         password.send_keys(self.password)
         password.send_keys(Keys.RETURN)
         time.sleep(3)
-    
+        
+ # Adding a like post method   
     def like_post(self,hashtag):
         bot = self.bot
         bot.get('https://www.instagram.com/' + hashtag + '/')
