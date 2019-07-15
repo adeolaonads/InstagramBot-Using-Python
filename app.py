@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-
+# Create a bot using a class
 class InstagramBot:
     def __init__(self,username,password):
         self.username = username
