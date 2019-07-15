@@ -9,7 +9,7 @@ class InstagramBot:
         self.password = password
         self.bot = webdriver.Firefox()
 
-
+# Adding a login method
     def login(self):
         bot = self.bot
         bot.get('https://www.instagram.com/accounts/login/?source=auth_switcher/')
