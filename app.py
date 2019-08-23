@@ -32,7 +32,9 @@ class InstagramBot:
         bot = self.bot
         bot.get('https://www.instagram.com/' + hashtag + '/')
 
+# Adding another method soon to the bot
 
 ade = InstagramBot('Your email here', 'Your password here')
 ade.login()
 ade.like_post('instablog9ja')
+
